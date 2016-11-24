@@ -8,6 +8,20 @@ trubthumping
 | licence   | MIT   |
 
 
+Ghost blog theme. https://trubthumping.com
+
+
+Usage
+--
+
+On `trubthumping` we deploy this theme via a docker container. This project exposes a `VOLUME` on `/var/lib/ghost/themes/trubthumping`. Thus:
+
+```bash
+$ /usr/bin/docker run -i --name trubthumping jspc/trubthumping
+$ /usr/bin/docker run --name ghost --volumes-from=trubthumping ghost:latest
+```
+
+
 Licence
 --
 
@@ -32,4 +46,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
