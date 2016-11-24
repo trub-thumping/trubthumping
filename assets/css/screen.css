@@ -1019,9 +1019,9 @@ body.nav-opened .nav {
     box-shadow: #FFF 0 0 0 5px;
 }
 
-body:not(.post-template) .post-title {
-    font-size: 3.6rem;
-}
+/* body:not(.post-template) .post-title { */
+/*     font-size: 3.6rem; */
+/* } */
 
 body.page-template .post-title {
     font-size: 5rem;
@@ -1045,7 +1045,7 @@ body.page-template .post-title {
     display: block;
     margin: 1.75rem 0 0 0;
     font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     line-height: 2.2rem;
     color: #9EABB3;
 }
@@ -1079,7 +1079,7 @@ body.page-template .post-title {
     padding-left: 12px;
     border-left: #d5dbde 1px solid;
     text-transform: uppercase;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     white-space: nowrap;
 }
 
@@ -1909,7 +1909,6 @@ body.page-template .post-title {
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
-
     .main-header {
         margin-bottom: 15px;
         height: 40vh;
@@ -2068,9 +2067,9 @@ body.page-template .post-title {
         font-size: 1.8rem;
     }
 
-    body:not(.post-template) .post-title {
-        font-size: 2.5rem;
-    }
+    /* body:not(.post-template) .post-title { */
+    /*     font-size: 2.5rem; */
+    /* } */
 
     body.page-template .post-title {
         font-size: 2.8rem;
@@ -2089,7 +2088,7 @@ body.page-template .post-title {
     }
 
     .post-meta {
-        font-size: 1.3rem;
+        /* font-size: 1.3rem; */
         margin-top: 1rem;
     }
 
