@@ -2,7 +2,7 @@
     "name": "trubthumping",
     "description": "Default Trub Thumping Theme",
     "demo": "https://www.trubthumping.com",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "engines": {
         "ghost": ">=0.9.0 <1.0.0"
     },
